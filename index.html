@@ -11,16 +11,58 @@
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <!-- our css must be last so it would do the last changes to the css design , so other css wouldn't override our css deisgn!-->
+        <link rel="stylesheet" href="css/custom.css">
+        
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        
+        <section id="cv">
+            <section id="profile">
+                <section id="intro">
+                    <img src="img/logo.jpg" width="130" height="130">
+                    <header>
+                        <h1>Pier</h1>
+                        <h2>vaknin</h2>
+                        <h3>Security guard</h3>
+                    </header>
+                    <section id="about">
+                        <section id="contact-info">
+                            <ul>
+                                <li>Phone:</li>
+                                <li>Area:</li>
+                                <li>Email:</li>
+                            </ul>
+                            <ul>
+                                <li>+972-777777-7777</li>
+                                <li>israel , alfei menashe</li>
+                                <li>Pierv@gmail.com</li>
+                            </ul>
+                        </section>
+                        <article>
+                            <h1>About Me</h1>
+                            <p>I'm proffesional house keeper , protecting my people . Sometimes I go for a walk to keep my city safe from villains 
+                                lorem ipsum ametlorem ipsum ametlorem ipsum ipsumametlorem ipsum ametlorem ipsum amet</p>
+                        </article>
+                    </section>
+                </section>
+                <ul id="social-networks">
+                    <li><i  class="fa fa-camera-retro"></i>
+                    <a href="#">Instagram</a>
+                    </li>
+                    <li><i class="fa fa-linkedin" aria-hidden="true"></i><a href="#">linkedin</a></li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#">Email</a></li>
+                    <li><i class="fa fa-globe" aria-hidden="true"></i><a href="#">Website</a></li>
+                </ul>
+            </section>
+        </section>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
