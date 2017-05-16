@@ -51,7 +51,7 @@ body {
 #about {
     border-left:2px solid #a5a5a5;
     padding: 15px;
-    width:350px;
+    width:auto;
     font-family: 'Levenim MT';
     margin-bottom:10px;
 }
@@ -75,4 +75,54 @@ body {
     text-decoration: none;
     color:#fff;
     margin-left:4px;
+}
+#content-wrapper{
+	display:flex;
+	background:white;
+	margin:0 auto;
+}
+#side{
+	margin-left:15px;
+	width:20%;
+	
+}
+#inside{
+	display:flex;
+	justify-content:space-between;
+	flex-direction: column;
+	height:500px;
+}
+#content{
+	margin-top:75px;
+	width:45%;
+	display:flex;
+	justify-content:space-between;
+	flex-direction: column;
+	padding-left:20px;
+}
+#skills{
+	width:35%;
+}
+#reverse,#kill {
+	height:150px;
+	background:#26c6da;
+	display:flex;
+	padding:0px;
+}
+#kill {
+	background:#afb42b;
+	display:flex;
+}
+#reverse ul{
+	list-style: none;
+	width:50%;
+	padding-right:10px;
+}
+#reverse ul:nth-child(2){
+	padding:0;
+	padding-right:15px;
+	color:#a5a5a5
+}
+#reverse li{
+	padding-bottom:4px;
 }
