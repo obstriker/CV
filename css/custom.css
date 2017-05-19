@@ -80,7 +80,6 @@ body {
 	display:flex;
 	background:white;
 	margin:0 auto;
-	padding-bottom:15px;
 }
 #side{
 	margin-left:15px;
@@ -105,27 +104,42 @@ body {
 }
 #skills{
 	width:35%;
+	font-family:'Levenim MT';
 }
 #reverse,#kill {
-	height:150px;
-	background:#26c6da;
+	height:300px;
 	display:flex;
 }
+
 #kill {
 	background:#afb42b;
+	background:#9ccc65
 }
 #reverse ul{
 	list-style: none;
 	width:50%;
 	padding-right:10px;
 }
+#kill ul{
+	margin-top:10px;
+	list-style: none;
+	width:100%;
+	padding:0;
+	padding-right:10px;
+}
+
 #reverse ul:nth-child(2){
 	padding:0;
 	padding-right:15px;
-	color:#a5a5a5
+	color:#a5a5a5;
 }
 #reverse li{
 	padding-bottom:4px;
+	height:25px;
+}
+#kill li{
+	padding-bottom:4px;
+	height:25px;
 }
 #side h1{
 	color:black;
@@ -134,4 +148,24 @@ body {
 	width:100%;
 	height:300px;
 	background:#cfd8dc;
+}
+#skills h2{
+	padding-left:5px;
+	margin-top:10px;
+	
+}
+#subskills{
+	padding-top:1px;
+	background:#42a5f5;
+}
+#subskills2 li{
+	list-style: none;
+}
+#subskills2 {
+	background:#9ccc65;
+}
+#subskills2 h2{
+	margin:0;
+	padding-top:10px;
+	font-size:25px;
 }
